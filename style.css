@@ -32,6 +32,7 @@ body {
     align-content: center;
     width: 100%;
     height: 13%;
+    z-index: 1;
     padding: 10px;
 }
 
@@ -147,28 +148,31 @@ body {
 }
 
 
-.description .magicmanclub-title {
+.cote-left .magicmanclub-title {
     position: absolute;
     top: 106px;
     font-size: 39px;
     width: 315px;
     font-weight: 700;
+    left: 10px;
 }
 
-.description .description-1 {
+.cote-left .description-1 {
     position: absolute;
     top: 168px;
     font-size: 20px;
     font-weight: 600;
     width: 437px;
+    left: 10px;
 }
 
-.description .description-2 {
+.cote-left .description-2 {
     position: absolute;
     top: 259px;
     width: 443px;
     font-size: 15px;
     opacity: 0.3;
+    left: 10px;
 }
 
 /*BOUTON DISCORD ET MINT */
@@ -176,16 +180,19 @@ body {
 /* BOUTON MINT*/
 
 .button-mint-global2 {
-    width: 24%;
+    width: 24%;    
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 24em;
+    left: 10px
 }
 
 .button-mint2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0;
     color: white;
     padding: 7px 5px;
@@ -202,6 +209,7 @@ body {
     transition: all .4s;
     letter-spacing: 1px;
     margin-right: 15px;
+    text-decoration: none;
 }
 
 .button-mint2::after {
@@ -227,6 +235,9 @@ body {
 /* BOUTON DISCORD*/
 
 .button-discord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0;
     width: 117px;
     height: 39px;
@@ -243,6 +254,7 @@ body {
     cursor: pointer;
     transition: all .4s;
     margin-left: 15px;
+    text-decoration: none;
 }
 
 .button-discord::after{
@@ -262,157 +274,17 @@ body {
 }
 
 .button-discord:hover {
-
     box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
-
 }
 
 /* LES ELEMENTS RIGHT*/
-/*bouton-right */
-
-.button-right {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    z-index: 3;
-}
-
-.button-right1 {
-    border: 0;
-    color:white;
-    background-color:rgb(140, 52, 255) ;
-    padding: 5px 5px;
-    width: 127px;
-    height: 26px;
-    border-radius: 3px;
-    font-weight: 500;
-}
-
-.button-right2 {
-    border: 0;
-    color: white;
-    background: rgb(12, 15, 59) ;    
-    height: 26px;
-    padding: 5px 5px;
-    width: 94px;
-    border-radius: 3px;
-    font-weight: 500;
-}
-
-.button-right3 {
-    border: 0;
-    color:white;
-    background-color:rgb(32, 142, 245) ;
-    padding: 5px 5px;
-    width: 61px;
-    height: 26px;
-    border-radius: 3px;
-    font-weight: 500;
-}
-
-.button-right1 {
-    opacity: 0;
-    animation: button-qovery 1.8s ease-in-out forwards;
-}
-
-@keyframes button-qovery{
-    form{
-        opacity: 0;
-        transform: translateY(0%);
-
-    }
-    to {
-        opacity: 1;
-        transform: translateY(200%);
-    }
-}
-
-.button-right2 {
-    opacity: 0;
-    animation: Kubernates  1.6s ease-in-out forwards;
-}
-
-@keyframes Kubernates{
-    form{
-        opacity: 0;
-        transform: translateY(0%);
-
-    }
-    to {
-        opacity: 1;
-        transform: translateY(200%);
-    }
-}
-
-.button-right3 {
-    opacity: 0;
-    animation: Cloud-Providers  1.4s ease-in-out forwards;
-}
-
-@keyframes Cloud-Providers{
-    form{
-        opacity: 0;
-        transform: translateY(0%);
-
-    }
-    to {
-        opacity: 1;
-        transform: translateY(200%);
-    }
-}
-
-
-.annotation1::before {
-    content: "";
-    color: rgb(140, 52, 255) ;
-    position: absolute;
-    border-top: 3px dashed;
-    left: -40px;
-    bottom: -5px;
-    width: 50px;
-    height: 1px;
-    transform: rotate(-45deg);
-    z-index: -1;
-}
-
-.annotation2::before {
-    content: "";
-    color: rgb(12, 15, 59);
-    position: absolute;
-    border-top: 3px dashed;
-    left: -40px;
-    bottom: -5px;
-    width: 50px;
-    height: 1px;
-    transform: rotate(-45deg);
-    z-index: -1;
-}
-
-.annotation3::before {
-    content: "";
-    color: rgb(32, 142, 245);
-    position: absolute;
-    border-top: 3px dashed;
-    left: -40px;
-    bottom: -5px;
-    width: 50px;
-    height: 1px;
-    transform: rotate(-45deg);
-    z-index: -1;
-}
 
 .cote-right {
-    width: 55%;
-    height: 82vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     position: absolute;
-    right: 35px;
+    right: 120px;
 }
 
 .big-carre {
@@ -584,7 +456,7 @@ body {
     position: absolute;
     opacity: 0;
     z-index: 3;
-    animation: hamberger-top 1.6s ease-in-out forwards ;
+    animation: hamberger-top 1.9s ease-in-out forwards ;
 }
 
 @keyframes hamberger-top {
@@ -604,7 +476,7 @@ body {
     position: absolute;
     opacity: 0;
     z-index: 2;
-    animation: hamberger-center 1.3s ease-in-out forwards;
+    animation: hamberger-center 1.6s ease-in-out forwards;
 }
 
 @keyframes hamberger-center {
@@ -623,7 +495,7 @@ body {
     position: absolute;
     opacity: 0; 
     z-index:1; 
-    animation: hamberger-bottom 1s ease-in-out forwards;
+    animation: hamberger-bottom 1.3s ease-in-out forwards;
 }
 
 @keyframes hamberger-bottom {
@@ -636,8 +508,6 @@ body {
         transform:translateY(30%) rotateX(60deg) rotateZ(45deg);
     }
 }
-
-
 
 .hr-fin-section1 {
     content: "";
@@ -661,24 +531,12 @@ body {
 }
 
 .title-roadmap{
-    font-weight: 700;
-    font-size: 27px;
     display: flex;
     justify-content: center;
     width: 100%;
+    font-weight: 700;
+    font-size: 27px;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    margin-top: 3.5em;
+    margin-top: 4em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
