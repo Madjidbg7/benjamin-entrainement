@@ -14,18 +14,6 @@ body {
 
 /* CONTENT LEFT*/
 
-.section-1 {
-    height: 100vh;
-}
-
-.section-mini-1 {
-    width: 1120px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    position: relative;
-}
-
 .nav-barre {
     display: flex;
     justify-content: center;
@@ -155,6 +143,17 @@ body {
     box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
 }
 
+.section-1 {
+    height: 100vh;    
+}
+
+.section-mini-1 {
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
 
 .cote-left .magicmanclub-title {
     position: absolute;
@@ -545,21 +544,11 @@ body {
     position: relative;
 }
 
-.hr-fin-section2 {
-    content: "";
-    background-color: white;
-    width: 90%;
-    height: 1px;
-    position: absolute;
-    bottom: -51em;
-    left: 5%;
-    right: 5%;
-}
-
 /*SECTION 3*/
 
 .section-3 {
     height: 145vh;
+    width: 100%;
 }
 
 .section_mini_3 {
@@ -587,7 +576,7 @@ body {
     font-size: 28px;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .description-roadmap {
@@ -814,7 +803,72 @@ body {
     width: 90%;
     height: 1px;
     position: absolute;
-    bottom: -109em;
+    bottom: -18em;
     left: 5%;
     right: 5%;
+}
+
+.section-4 {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.section_mini_4  {
+    width:  1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.section-5 {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.section_mini_5 {
+    width:  1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.section-6 {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.section_mini_6 {
+    width:  1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.section-7 {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.section_mini_7 {
+    width:  1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.section-8 {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.section_mini_8 {
+    width:  1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+    position: relative;
 }
