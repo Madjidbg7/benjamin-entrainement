@@ -55,7 +55,7 @@ body {
 
 .nav_barre_items li a:hover{
     text-shadow:0 0 0.3em rgb(255, 255, 255);
-    transform: scale(2, 0.5);
+
 }
 
 .icon-barre {
@@ -81,6 +81,7 @@ body {
 
 .icon-barre img:hover {
     animation: icon-opacity .3s forwards;
+    transform: scale(1.2, 1.2);
 }
 
 @keyframes  icon-opacity{
@@ -547,7 +548,7 @@ body {
 /*SECTION 3*/
 
 .section-3 {
-    height: 145vh;
+    height: 135vh;
     width: 100%;
 }
 
@@ -572,7 +573,7 @@ body {
 
 .title-roadmap{
     width: 100%;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 28px;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -583,9 +584,10 @@ body {
     display: flex;
     justify-content: center;
     font-size: 15px;
-    opacity: 0.4;
+    opacity: 0.5;
     width: 537px;
     margin-top: 25px;
+    font-weight: 400;
 }
 
 /*LA ROADMAP ET LES ICONES*/
@@ -598,7 +600,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 30px;
     border-radius: 30px;
     position: relative;
 }
@@ -608,9 +610,9 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     width: 100%;
-    height: 16%;
+    height: 14%;
     position: relative;
-    top: -7em;
+    top: -6rem;
 }
 
 .premiere-ligne-a {
@@ -627,7 +629,7 @@ body {
 .premiere-ligne-a a {
     text-align: center;
     width: 192px;
-    font-size: 14px;
+    font-size: 11.9px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -641,12 +643,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(172, 82, 255);
-    background-color: rgb(172, 82, 255, 0.1);
+    background-color: rgb(172, 82, 255, 0.07);
     position: absolute;
     left: 26px;
     top: -47px;
+    box-shadow: inset 0 0 0.3em rgb(172, 82, 255), 0 0 0.3em rgb(172, 82, 255);
 }
 
 .child-2::before {
@@ -656,12 +659,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(60, 250, 102);
-    background-color: rgb(60, 250, 102, 0.1);
+    background-color: rgb(60, 250, 102, 0.07);
     position: absolute;
     left: 307px;
     top: -47px;
+    box-shadow: inset 0 0 0.3em rgb(60, 250, 102), 0 0 0.3em rgb(60, 250, 102);
 }
 
 .child-3::before {
@@ -671,12 +675,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(255, 95, 95);
-    background-color:rgb(255, 95, 95, 0.1);
+    background-color:rgb(255, 95, 95, 0.07);
     position: absolute;
     right: 307px;
     top: -47px;
+    box-shadow: inset 0 0 0.3em rgb(255, 95, 95), 0 0 0.3em rgb(255, 95, 95);
 }
 
 .child-4::before {
@@ -686,17 +691,18 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(92, 108, 247);
-    background-color: rgb(92, 108, 247, 0.1);
+    background-color: rgb(92, 108, 247, 0.07);
     position: absolute;
     right: 26px;
     top: -47px;
+    box-shadow: inset 0 0 0.3em rgb(92, 108, 247), 0 0 0.3em rgb(92, 108, 247);
 }
 
 .premiere-ligne-icon .icon-violet, .icon-vert,
  .icon-rouge, .icon-bleu  {
-    width: 60px;
+    width: 53px;
 }
 
 .deuxieme-ligne-icon {
@@ -704,13 +710,13 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 16%;
+    height: 14%;
     position: relative;
-    bottom: 7em;
+    bottom: 6rem;
 }
 
 .deuxieme-ligne-icon img {
-    width: 60px;
+    width: 53px;
 }
 
 .deuxieme-ligne-a {
@@ -726,7 +732,7 @@ body {
 .deuxieme-ligne-a a {
     text-align: center;
     width: 176px;
-    font-size: 14px;
+    font-size: 11.9px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -743,12 +749,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(255, 133, 34);
-    background-color: rgba(255, 133, 34, 0.137);
+    background-color: rgba(255, 133, 34, 0.07);
     position: absolute;
     left: 26px;
     top: -34px;
+    box-shadow: inset 0 0 0.3em rgb(255, 133, 34), 0 0 0.3em rgb(255, 133, 34);
 }
 
 .child-6::before {
@@ -758,12 +765,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(255, 108, 255);
-    background-color: rgb(255, 108, 255, 0.1);
+    background-color: rgb(255, 108, 255, 0.07);
     position: absolute;
     left: 307px;
     top: -34px;
+    box-shadow: inset 0 0 0.3em rgb(255, 108, 255), 0 0 0.3em rgb(255, 108, 255);
 }
 
 .child-7::before {
@@ -773,13 +781,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(255, 253, 108);
-    background-color: rgb(255, 253, 108, 0.1);
+    background-color: rgb(255, 253, 108, 0.07);
     position: absolute;
     right: 307px;
     top: -34px;
-    box-shadow:0px 0px 0.5em rgb(0, 0, 0);
+    box-shadow: inset 0 0 0.3em rgb(255, 253, 108), 0 0 0.3em rgb(255, 253, 108);
 }
 
 .child-8::before {
@@ -789,23 +797,13 @@ body {
     align-items: center;
     width: 221px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 30px 70px;
     border: solid 2px rgb(106, 255, 230);
-    background-color: rgb(106, 255, 230, 0.1);
+    background-color: rgb(106, 255, 230, 0.07);
     position: absolute;
     right: 26px;
     top: -34px;
-}
-
-.hr-fin-section3 {
-    content: "";
-    background-color: white;
-    width: 90%;
-    height: 1px;
-    position: absolute;
-    bottom: -18em;
-    left: 5%;
-    right: 5%;
+    box-shadow: inset 0 0 0.3em rgb(106, 255, 230), 0 0 0.3em rgb(106, 255, 230);
 }
 
 .section-4 {
