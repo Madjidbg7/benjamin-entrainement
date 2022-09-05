@@ -578,6 +578,7 @@ body {
     color: rgb(255, 255, 255);
     cursor: pointer;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .description-roadmap {
@@ -650,6 +651,7 @@ body {
     left: 26px;
     top: -47px;
     box-shadow: inset 0 0 0.3em rgb(172, 82, 255), 0 0 0.3em rgb(172, 82, 255);
+    z-index:-1;
 }
 
 .child-2::before {
@@ -666,6 +668,7 @@ body {
     left: 307px;
     top: -47px;
     box-shadow: inset 0 0 0.3em rgb(60, 250, 102), 0 0 0.3em rgb(60, 250, 102);
+    z-index:-1;
 }
 
 .child-3::before {
@@ -682,6 +685,7 @@ body {
     right: 307px;
     top: -47px;
     box-shadow: inset 0 0 0.3em rgb(255, 95, 95), 0 0 0.3em rgb(255, 95, 95);
+    z-index:-1;
 }
 
 .child-4::before {
@@ -698,6 +702,7 @@ body {
     right: 26px;
     top: -47px;
     box-shadow: inset 0 0 0.3em rgb(92, 108, 247), 0 0 0.3em rgb(92, 108, 247);
+    z-index:-1;
 }
 
 .premiere-ligne-icon .icon-violet, .icon-vert,
@@ -735,6 +740,7 @@ body {
     font-size: 11.9px;
     font-weight: 600;
     letter-spacing: 1px;
+    z-index: 3;
 }
 
 .deuxieme-ligne-a a:nth-child(2) {
@@ -756,6 +762,7 @@ body {
     left: 26px;
     top: -34px;
     box-shadow: inset 0 0 0.3em rgb(255, 133, 34), 0 0 0.3em rgb(255, 133, 34);
+    z-index:-1;
 }
 
 .child-6::before {
@@ -772,6 +779,7 @@ body {
     left: 307px;
     top: -34px;
     box-shadow: inset 0 0 0.3em rgb(255, 108, 255), 0 0 0.3em rgb(255, 108, 255);
+    z-index:-1;
 }
 
 .child-7::before {
@@ -788,6 +796,7 @@ body {
     right: 307px;
     top: -34px;
     box-shadow: inset 0 0 0.3em rgb(255, 253, 108), 0 0 0.3em rgb(255, 253, 108);
+    z-index:-1;
 }
 
 .child-8::before {
@@ -804,14 +813,15 @@ body {
     right: 26px;
     top: -34px;
     box-shadow: inset 0 0 0.3em rgb(106, 255, 230), 0 0 0.3em rgb(106, 255, 230);
+    z-index:-1;
 }
-
+                            
 .section-4 {
     height: 100vh;
-    scroll-behavior: smooth;
+    width: 100%;
 }
 
-.section_mini_4  {
+.section-mini-4  {
     width:  1120px;
     height: 100vh;
     margin: 0 auto;
@@ -821,10 +831,10 @@ body {
 
 .section-5 {
     height: 100vh;
-    scroll-behavior: smooth;
+    width: 100%;
 }
 
-.section_mini_5 {
+.section-mini-5 {
     width:  1120px;
     height: 100vh;
     margin: 0 auto;
@@ -834,10 +844,10 @@ body {
 
 .section-6 {
     height: 100vh;
-    scroll-behavior: smooth;
+    width: 100%;
 }
 
-.section_mini_6 {
+.section-mini-6 {
     width:  1120px;
     height: 100vh;
     margin: 0 auto;
@@ -847,26 +857,56 @@ body {
 
 .section-7 {
     height: 100vh;
-    scroll-behavior: smooth;
+    width: 100%;
 }
 
-.section_mini_7 {
+.section-mini-7 {
     width:  1120px;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
     display: block;
     position: relative;
 }
+
+.faq-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px; 
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.question {
+    width: 73%;
+    height: 75%;
+    margin: 0 auto;
+    background-color: red;
+    margin-top: 40px;
+}
+
+.container-question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
 
 .section-8 {
     height: 100vh;
-    scroll-behavior: smooth;
+    width: 100%;
 }
 
-.section_mini_8 {
+.section-mini-8 {
     width:  1120px;
     height: 100vh;
     margin: 0 auto;
     display: block;
     position: relative;
 }
+
